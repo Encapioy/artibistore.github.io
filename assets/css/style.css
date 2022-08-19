@@ -237,6 +237,14 @@ a{
     height: 400px;
 }
 
+.card .img-3{
+    height: 350px;
+}
+
+.card:hover .img-3{
+    height: 450px;
+}
+
 .card .content{
     position: relative;
     width: 50%;
@@ -463,73 +471,17 @@ a{
     display: block;
 }
 
-/*loading*/
-#loader{
-    margin: 0;
-    padding: 0;
-    background: #fff;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "montserrat",sans-serif;
-}
-.loading{
-    width: 100px;
-    height: 100px;
-    box-sizing: border-box;
-    border-radius: 25%;
-    border-top: 5px solid #e74c3c;
-    position: relative;
-    animation: a1 2s linear infinite;
-}
-.loading::before, .loading::after{
-    content: '';
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: 0;
-    top: -5px;
-    box-sizing: border-box;
-    border-radius: 25%;
-}
-.loading::before{
-    border-top: 5px solid #e67e22;
-    transform: rotate(120deg);
-
-}
-.loading::after{
-    border-top: 5px solid #3498db;
-    transform: rotate(240deg);
-
-}
-.loading span{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    color: #fff;
-    text-align: center;
-    line-height: 100px;
-    animation: a2 2s linear infinite;
-}
-@keyframes a1{
-    to{
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes a2{
-    to{
-        transform: rotate(-360deg);
-    }
-}
-
-
 
 
 /*responsive screen*/
 
-@media(max-width: 991px){
+
+@media screen and (max-width: 991px){
+
+    body{
+        overflow-x: hidden;
+    }
+
      /*Banner*/
      
      .banner p {
@@ -583,6 +535,11 @@ a{
         height: 300px;
     }
 
+    .card:hover .img-3{
+        height: 420px;
+        top: 80%;
+    }
+
      /* about */
      .about {
         display: block;
@@ -607,7 +564,7 @@ a{
     }
 }
 
-@media(max-width:770px) {
+@media screen and (max-width:770px) {
     /*Banner*/
 
     .banner p {
@@ -644,7 +601,7 @@ a{
     
 }
 
-@media(max-width:550px) {
+@media screen and (max-width:550px) {
         /*Contact*/
           
         .footer-section h6{
@@ -663,7 +620,7 @@ a{
         
 }
 
-@media(max-width: 530px) {
+@media screen and (max-width: 530px) {
     /* banner */
     .banner img{
         width: 400px;
@@ -671,7 +628,7 @@ a{
 
 }
 
-@media(max-width:500px){
+@media screen and (max-width:500px){
     /* about */
 
     .about h2{
@@ -684,7 +641,7 @@ a{
     }
 }
 
-@media(max-width: 420px){
+@media screen and (max-width: 420px){
 
     /* banner */
     .banner img{
@@ -712,7 +669,7 @@ a{
     }
 }
 
-@media(max-width:390px) {
+@media screen and (max-width:390px) {
     /*Contact*/
     
     .footer-section a{
