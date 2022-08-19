@@ -498,6 +498,11 @@ a{
          width: auto;
          max-width: 500px;
      }
+
+     /* features */
+     #featured{
+        margin-top: 170px;
+     }
  
 
     /*Pricing*/
