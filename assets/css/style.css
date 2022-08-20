@@ -548,8 +548,7 @@ a{
      /* about */
      .about {
         display: block;
-        margin-bottom: 30vh;
-        justify-content: center;
+        margin-bottom: 50vh;
     }
     
     .about .content {

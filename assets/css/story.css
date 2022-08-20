@@ -207,8 +207,7 @@ a{
     /* about */
     #about {
         display: block;
-        margin-bottom: 45vh;
-        justify-content: center;
+        margin-bottom: 50vh;
     }
     
     #about .content {
