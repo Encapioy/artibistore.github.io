@@ -190,6 +190,7 @@ a{
 }
 
 .card:hover .img-3{
+    left: 38%;
     height: 450px;
 }
 
@@ -202,6 +203,60 @@ a{
     height: 500px;
     top: 40%;
 }
+
+.card .img-5{
+    height: 50px;
+    opacity: 0;
+    visibility: hidden;
+    transform-origin: 0 100%;
+    
+}
+
+.card:hover .img-5{
+    top: 20%;
+    left: 25%;
+    height: 300px;
+    transform: rotate(-45deg);
+    opacity: 1;
+    visibility: visible;
+}
+
+.card .img-6{
+    height: 50px;
+    opacity: 0;
+    visibility: hidden;
+    transform-origin: 0 100%;
+    
+}
+
+.card:hover .img-6{
+    top: 25%;
+    left: 30%;
+    height: 300px;
+    transform: rotate(-60deg);
+    opacity: 1;
+    visibility: visible;
+}
+
+.card .img-7{
+    height: 50px;
+    opacity: 0;
+    visibility: hidden;
+    transform-origin: 0 100%;
+    
+}
+
+.card:hover .img-7{
+    top: 30%;
+    left: 35%;
+    height: 300px;
+    transform: rotate(-75deg);
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
 
 .card .content{
     position: relative;
@@ -298,7 +353,7 @@ a{
         max-width: 350px;
         align-items: flex-start;
         margin: auto;
-        margin-bottom: 30px;
+        margin-bottom: 70px;
     }
 
     .card:hover{
@@ -334,12 +389,31 @@ a{
     }
 
     .card:hover .img-3{
-        height: 420px;
+        height: 400px;
         top: 80%;
-    }
-    
+        left: 70%;
+    }  
+
     .card:hover .img-4{
         top: 70%;
+    }
+    
+    .card:hover .img-5{
+        top: 60%;
+        left: 55%;
+        height: 250px;
+    }
+    
+    .card:hover .img-6{
+        top: 65%;
+        left: 60%;
+        height: 250px;
+    }
+    
+    .card:hover .img-7{
+        top: 70%;
+        left: 65%;
+        height: 250px;
     }
 }
 
