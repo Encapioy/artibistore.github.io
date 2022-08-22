@@ -574,6 +574,17 @@ a{
      #featured{
         margin-top: 170px;
      }
+
+     #featured h5{
+        font-weight: 600;
+        letter-spacing: 0px;
+        font-size: 1.5rem;
+    }
+    
+    #featured  video{
+        height: 400px;
+        
+    }
  
 
     /*Pricing*/
@@ -665,6 +676,12 @@ a{
         font-size: 1rem;
     }
 
+    /* featured */
+    #featured  video{
+        height: 250px;
+        
+    }
+
     
     /* team */
 
@@ -722,6 +739,13 @@ a{
 }
 
 @media screen and (max-width:500px){
+
+    /* featured */
+    #featured  video{
+        height: 200px;
+        
+    }
+
     /* about */
 
     .about h2{
@@ -763,6 +787,13 @@ a{
 }
 
 @media screen and (max-width:390px) {
+
+    /* featured */
+    #featured  video{
+        height: 150px;
+        
+    }
+
     /*Contact*/
     
     .footer-section a{
@@ -779,3 +810,4 @@ a{
     }
     
 }
+
